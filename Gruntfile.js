@@ -13,4 +13,7 @@ module.exports = function (grunt) { //wrapper func
             }
         }
     });
+
+    grunt.loadNpmTasks('grunt-contrib-concat'); // load the plugin that provides the concat task
+    
 };
