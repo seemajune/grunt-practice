@@ -5,7 +5,7 @@ module.exports = function (grunt) { //wrapper func
         pkg: grunt.file.readJSON('package.json'),
         concat: {
             options: {
-                separator: '\n*****\o/*****' // one of concat's built-in options
+                separator: '\n*****\o/*****\n' // one of concat's built-in options
             },
             build: {
                 src: 'src/*.txt',
