@@ -1,1 +1,4 @@
-// JavaScript source code
+'use strict';
+module.exports = function (grunt) {
+    // Do grunt-related things in here
+};
