@@ -7,7 +7,9 @@
   },
   "author": "seemajune",
   "license": "ISC",
-  "dependencies": {
-
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
   }
 }
